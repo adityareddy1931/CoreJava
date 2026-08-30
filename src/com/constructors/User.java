@@ -4,7 +4,7 @@ public class User {
 	String name;
 	String area;
        User(){
-// it calling the parameterized constructor -Excution moves to the( PC)
+// it calling the parameterized constructor -Execution moves to the( PC)
     	   this("Aditya","Kakinada");
     	   
        }
