@@ -3,7 +3,7 @@ package POCS;
 import java.util.Scanner;
 
 public class Marketing {
-	static void Marketing() {
+	static void Marketingg() {
 		String YorN;
 		double totalCost = 0;
 		do {
@@ -22,22 +22,22 @@ public class Marketing {
 						totalCost = totalCost + MangoCost;
 						break;
 					case "apple":
-						System.out.println("The cost ot the kg mango is 60");
+						System.out.println("The cost ot the kg Apple is 60");
 						int AppleCost = 60;
 						totalCost = totalCost + AppleCost;
 						break;
 					case "banana":
-						System.out.println("The cost ot the kg mango is 70");
+						System.out.println("The cost ot the kg banana is 70");
 						int BananaCost = 70;
 						totalCost = totalCost + BananaCost;
 						break;
-					case "graps":
-						System.out.println("The cost ot the kg mango is 80");
+					case "grapes":
+						System.out.println("The cost ot the kg grapes is 80");
 						int GrapsCost = 80;
 						totalCost = totalCost + GrapsCost;
 						break;
 					case "orange":
-						System.out.println("The cost ot the kg mango is 90");
+						System.out.println("The cost ot the kg orange is 90");
 						int OrangeCost = 90;
 						totalCost = totalCost + OrangeCost;
 						break;
@@ -99,6 +99,6 @@ public class Marketing {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome To the hyper Market");
-		Marketing();
+		Marketingg();
 	}
 }
